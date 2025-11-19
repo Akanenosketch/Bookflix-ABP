@@ -1,0 +1,37 @@
+{
+  "users": [
+    {
+      "id": 1,
+      "username": "alumno_demo",
+      "plan": "standard", 
+      "profiles": [
+          {"name": "Principal", "is_child": false},
+          {"name": "Sobrinita", "is_child": true}
+      ],
+      "history": [101],
+      "favorites": []
+    }
+  ],
+  "books": [
+    {
+      "id": 101,
+      "title": "Don Quijote",
+      "author": "Miguel de Cervantes",
+      "genre": ["Clásico", "Aventura"],
+      "cover_url": "https://via.placeholder.com/300x450?text=Quijote",
+      "is_premium_only": false,
+      "release_date": "2020-01-01",
+      "description": "El ingenioso hidalgo..."
+    },
+    {
+      "id": 102,
+      "title": "Novedad Exclusiva",
+      "author": "Autor Modeno",
+      "genre": ["Thriller"],
+      "cover_url": "https://via.placeholder.com/300x450?text=Novedad",
+      "is_premium_only": true, 
+      "release_date": "2023-11-01",
+      "description": "Solo para usuarios Premium o Plus..."
+    }
+  ]
+}
